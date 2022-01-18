@@ -1,7 +1,7 @@
 import socket, time, os                # Import socket module
 
 s = socket.socket()             # Create a socket object
-host = '169.254.204.233'     # Get local machine name
+host = '000.000.000.000'     # Get local machine name
 port = 6000                     # Reserve a port for your service.
 s.connect((host, port))     #Connects host and port to server
 prompt = s.recv(1024)           #Receives username prompt
