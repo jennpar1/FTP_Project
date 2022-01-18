@@ -5,8 +5,8 @@ s = socket.socket()             # Create a socket object
 host = '0.0.0.0'     # Get local machine name
 s.bind((host, port))            # Bind to the port
 s.listen(5)                     # Now wait for client connection.
-path = "C:\Users\jennp\workspace\FTPProject\src\FTPClient"
-directory = "C:\Users\jennp\workspace\FTPProject\src\FTPServer"
+path = "C:\Users\FTPClient"
+directory = "C:\Users\FTPServer"
 
 print 'Server listening....'
 
